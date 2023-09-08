@@ -1,8 +1,8 @@
-package JenkinPackage;
+package jenkinPackage;
 
 import org.testng.annotations.Test;
 
-public class jenkinTC1 {
+public class Testcase1 {
   @Test
   public void f() {
   }
