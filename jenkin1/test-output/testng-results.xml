@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-08T10:45:41 IST" name="Default suite" finished-at="2023-09-08T10:46:10 IST" duration-ms="28745">
+    <groups>
+    </groups>
+    <test started-at="2023-09-08T10:45:41 IST" name="Default test" finished-at="2023-09-08T10:46:10 IST" duration-ms="28745">
+      <class name="jenkinPackage.Testcase1">
+        <test-method signature="TC1()[pri:0, instance:jenkinPackage.Testcase1@750e2b97]" started-at="2023-09-08T10:45:41 IST" name="TC1" description="Check Login Page is loaded Successfully" finished-at="2023-09-08T10:45:58 IST" duration-ms="16994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method signature="TC2()[pri:0, instance:jenkinPackage.Testcase1@750e2b97]" started-at="2023-09-08T10:45:58 IST" name="TC2" description="Check Logout is working fine" finished-at="2023-09-08T10:46:10 IST" depends-on-methods="jenkinPackage.Testcase1.TC1" duration-ms="11673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+      </class> <!-- jenkinPackage.Testcase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
